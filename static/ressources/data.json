@@ -1,0 +1,104 @@
+{
+  "motif": [
+    {
+    "categorie":"Code 01 : Retard",
+    "absences": [
+      {"libelle": "retard"}
+    ]
+    },
+    {
+      "categorie":"Code 04 : Grève Afpa",
+    "absences" :[
+      {"libelle": "Grève Afpa"}
+      ]
+    },
+    {
+      "categorie":"Code 06 : Absence Légale",
+      "absences": [
+        {"libelle":"Naissance ou adoption (3 jours)"},
+        {"libelle":"Mariage (4 jours)"},
+        {"libelle":"Mariage d’un enfant (1 jour)"},
+        {"libelle":"Décès du conjoint ou du partenaire lié par un pacte civil de solidarité ou d’un enfant (2 jours)"},
+        {"libelle":"décès du père, de la mère, du beau-père, de la belle-mère, d'un frère ou d'une sœur (1 jour)"},
+        {"libelle":"Visite médicale obligatoire de la grossesse"},
+        {"libelle":"Stagiaire élu membre du CA d’une caisse de sécurité sociale sociale"}
+      ]
+    },
+
+    {
+      "categorie":"Code 20 – 21 – 30 – 31 - 40 - 41 : Accident",
+      "absences" :[
+        {"libelle": "Accident travail sans arrêt"},
+        {"libelle": "Accident travail avec arrêt"},
+        {"libelle": "Accident trajet sans arrêt"},
+        {"libelle": "Accident trajet avec arrêt"},
+        {"libelle": "Accident travail hors Afpa sans arrêt"},
+        {"libelle": "Accident travail hors Afpa avec arrêt,"}
+      ]
+    },
+
+    {
+      "categorie": "Code 98 : Absence autorisée non rémunérée",
+          "absences": [
+            {
+              "libelle": "Recherche PE"
+            },
+            {
+              "libelle": "Recherche d’un emploi"
+            },
+            {
+              "libelle": "Visite d’un salon"
+            },
+            {
+              "libelle": "Enquête en entreprise"
+            },
+            {
+              "libelle": "Visite d’un autre centre"
+            },
+            {
+              "libelle": "RDV psychologue du travail"
+            },
+            {
+              "libelle": "Rendez-vous POLE EMPLOI"
+            },
+            {
+              "libelle": "Absence pour fêtes religieuses hors jours fériés légaux"
+            },
+            {
+              "libelle": "Grève des transports"
+            },
+            {
+              "libelle": "Intempéries"
+            },
+            {
+              "libelle": "Rdv avec le conseiller militaire"
+            },
+            {
+              "libelle": "Rdv avec le juge, Convocation au tribunal ou commissariat"
+            }
+          ]
+    }
+  ],
+
+
+  "formation": [
+    {
+      "libelle": "Concepteur(trice) développeur(se) informatique"
+    },
+    {
+      "libelle": "Développeur(euse) logiciel"
+    },
+    {
+      "libelle": "Technicien(ne) Helpdesk"
+    },
+    {
+      "libelle": "Technicien(ne) supérieur(e) de support en informatique"
+    },
+    {
+      "libelle": "Administrateur(trice) réseaux"
+    },
+    {
+      "libelle": "Technicien(ne) supérieur(e) d’exploitation en informatique"
+    }
+  ]
+}

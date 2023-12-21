@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'absence</title>
+    <link rel="stylesheet" href="../static/css/form.css">
+</head>
+<body>
+<header class="en_tete">
+    <h1>Autorisation d'absence <img src="../static/ressources/Couleur-logo-AFPA-500x281.jpg" class="logo"></h1>
+
+</header>
+<form method="post" action="signature.html" onsubmit="return verification()">
+    <section class="infos_abscence">
+        <fieldset>
+            <legend>Identification</legend>
+        <div class="stagiare">
+            <p><label for="nom">nom:</label>
+            <input type="text" id="nom" class="fields" name="nom">
+            </p>
+            <p>
+            <label for="prenom">prénom:</label>
+            <input type="text" id="prenom" class="fields" name="prenom"></p>
+            <p><label for="formation">formation suivit :</label>
+            <select id="formation" name="formation">
+            </select>
+            </p>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend> Demande l'autorisation de s'absenter du centre :</legend>
+        <div class="date">
+            <input id="heures" type="radio"  value="heures" name="duree_absence">
+            <label for="heures">Heures</label>
+            <input id="jours" type="radio"  value="jours" name="duree_absence">
+            <label for="jours">Jours</label>
+            <div class="duree_absence" id="heures_div">
+                <p>Le <input type="date" class="fields" id="dateH" name="dateH"></p>
+                <p>De <input type="time" class="fields" id="heure_debut" name="heure_debut">h</p>
+                <p>à <input type="time" class="fields" id="heure_fin" name="heure_fin">h</p></div>
+            <div class="duree_absence" id="jours_div">
+                <p>Du <input type="date" class="fields" id="date_debut" name="date_debut"></p>
+                <p>au <input type="date" class="fields" id="date_fin" name="date_fin"></p>
+                <p>Soit <input type="number" class="fields" id="jours_complet" readonly name="jours_complet"> jours complets</p>
+            </div>
+        </div>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Motif de l'absence</legend>
+        <div  class="motif-div" id="motif-div">
+        </div>
+    </fieldset>
+    </section>
+    <button type="submit">Valider</button>
+</form>
+
+
+<script src="../static/js/form.js"></script>
+</body>
+</html>
+
+
+<!-- method= "get" url => -->
+<!-- signature.html?nom=toto -->
+<!-- & prenom=toto -->
+<!-- & formation=Concepteur%28trice%29+d%C3%A9veloppeur%28se%29+informatique -->
+<!-- & duree_absence=jours -->
+<!-- & dateH= -->
+<!-- & heure_debut= -->
+<!-- & heure_fin= -->
+<!-- & date_debut=2023-12-20 -->
+<!-- & date_fin=2023-12-21 -->
+<!-- & jours_complet=1 -->
+<!-- & muhRadio= -->

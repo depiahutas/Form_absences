@@ -1,0 +1,89 @@
+.en_tete {
+    width: 100%;
+    border-bottom: green solid 4px;
+    color: green;
+    margin: 0;
+    justify-content: center;
+    .logo{
+        height: 100px;
+    }
+}
+h1{
+    margin: 0;
+}
+
+legend{
+    color: green;
+}
+
+fieldset{
+    border-color: #3daf3d;
+    margin-top: 15px;
+}
+
+
+.infos_abscence{
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.fields{
+    float: right;
+    clear: both;
+    width: 50%;
+    height: 25px;
+    font-size: 15px;
+}
+select{
+    float: right;
+    margin-top: 5px;
+}
+
+.motif-div{
+    width: 100%;
+    text-align: center;
+}
+
+
+.duree_absence{
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+}
+
+.motif-abs{
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    border: black dashed 1px;
+    border-radius: 5px;
+}
+
+.abs{
+    border: 1px solid #000000;
+    padding: 0.5em;
+    -webkit-appearance: none;
+}
+
+.abs:checked {
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=) no-repeat center center;
+    background-size: 9px 9px;
+}
+
+.abs:focus {
+    outline-color: transparent;
+}

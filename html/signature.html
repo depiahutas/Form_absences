@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/signature.css">
+</head>
+<div id="guirlande"></div>
+<header class="en_tete">
+
+    <div><h1>Récapitulatif d'absence <img src="../static/ressources/Couleur-logo-AFPA-500x281.jpg" class="logo"></h1></div>
+    <button id="NowelMode" class="nowel"></button>
+</header>
+
+<body id="body">
+
+<canvas id="snow"></canvas>
+<section class="center_black" id="center">
+    <fieldset>
+        <legend>Identité</legend>
+    <div id="identité">
+        <ul>
+            <li>nom : <span id="nom"></span></li>
+            <li>prénom : <span id="prenom"></span></li>
+            <li>formation : <span id="formation"></span></li>
+        </ul>
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Absence</legend>
+    <div id="absence">
+
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend>Signature</legend>
+
+    <div id="signature">
+        <div class="title">Cachet et signature de l'entreprise ou de </div>
+        <div class="cachet">Merci d'apposer votre cachet pour justifier de l'absence de la formation de M <span id="nm"></span></div>
+        <div id="sign_sta" class="sign-black">Date et signature du stagiaire</div>
+        <div id="sign_for" class="sign-black">Date et signature du formateur</div>
+
+        <div class="div_dir">
+        <div id="avis_MF" class="directeur-black">Avis du MF pour décision
+            du Directeur</div><div id="decision" class="directeur-black">Décision du Directeur</div>
+        </div>
+    </div>
+    </fieldset>
+    <div class="mail">
+    <button id="mail" >Envoyer par mail</button>
+    </div>
+</section>
+
+
+<script src="../static/js/signature.js"></script>
+<script src="../static/js/snow.js"></script>
+</body>
+</html>

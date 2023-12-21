@@ -1,0 +1,105 @@
+
+.en_tete {
+    width: 100%;
+    border-bottom: green solid 4px;
+    color: green;
+    display: inline-flex;
+    margin: 0;
+    justify-content: center;
+    .logo{
+        height: 100px;
+    }
+}
+legend{
+    color: green;
+}
+
+fieldset{
+    border-color: #3daf3d;
+    margin-top: 15px;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+.title{
+    padding: 5px;
+    text-align: center;
+}.cachet{
+    padding: 5px;
+    margin-bottom: 150px;
+    text-align: center;
+    border-top: solid #ffffff 1px;
+}
+
+#nm{
+    border-bottom: #ffffff 1px solid;
+}
+
+.sign-black{
+    text-align: center;
+    margin-bottom: 0;
+    border: #000000 1px solid;
+padding: 5px;
+height: 150px;
+}
+
+.sign-white{
+    text-align: center;
+    margin-bottom: 0;
+    border: #ffffff 1px solid;
+    padding: 5px;
+    height: 150px;
+}
+
+.div_dir{
+    padding: 20px;
+}
+
+.directeur-black{
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    border: #000000 1px solid;
+    padding: 5px;
+    width: 48%;
+    height: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.directeur-white{
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    border: #ffffff 1px solid;
+    padding: 5px;
+    width: 48%;
+    height: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.mise_en_gras{
+    font-weight: bold;
+    color: darkred;
+}
+
+#NowelMode{
+    display: block;
+    background: url('../ressources/star1-removebg-preview.png') transparent;
+    height: 48px;
+    width: 45px;
+    border: none;
+}
+
+.mail{
+    margin: 10px 45%;
+}
+
+.nowel{
+    cursor: pointer;
+}
+
+

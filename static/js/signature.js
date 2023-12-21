@@ -35,12 +35,14 @@ btn.addEventListener("click", function () {
         a[1].className="sign-black"
         a[0].className="sign-black"
         console.log(a)
+        document.getElementById("logo").src="../static/ressources/Couleur-logo-AFPA-500x281-removebg-preview%20(1).png"
 
 
 
     }
     else{
         document.bgColor="black"
+        document.getElementById("logo").src="../static/ressources/afpa.png"
         btn.value="normal"
         document.getElementById("guirlande").innerHTML="<section class='light-bulbs'>" +
             "<div class='light-bulb theme-color-one'></div>" +
